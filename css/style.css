@@ -26,27 +26,13 @@ body{
     background-color: var(--white);
     color: var(--dark-grey);
 }
-
-/*
-###################################################
-MAIN
-###################################################
-*/
-#hero{
-    padding-top: 100px;
+h1, h2, h3{
+    margin-top: 2rem;
 }
-.avatar{
-    width: 30%;
-    max-width: 100%;
-}
-
-
-
-.img-portfolio{
-    width: 100%;
-    max-width: 100%;
-    align-items: center;
-    padding: 1rem 1.5rem;
+h3{
+    font-size: 1.25rem;
+    color: var(--white);
+    margin-bottom: 2rem;
 }
 /*
 ###################################################
@@ -59,4 +45,58 @@ header{
     /*height: 90px;*/
     top: 0;
     width: 100%;
+}
+
+/*
+###################################################
+MAIN
+###################################################
+*/
+#hero, #abou, #contact{
+    padding-top: 100px;
+}
+.avatar{
+    width: 70%;
+    max-width: 100%;
+}
+.img-portfolio{
+    max-width: 100%;
+    width: 90%;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.col-bar-white, .col-bar-black{
+    height: 4px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6vh;
+}
+.col-bar-black{
+    background-color: var(--dark-grey);
+}
+.col-bar-white{
+    background-color: var(--white);
+}
+.fa-star, .white, .black{
+    font-size: 275%;
+}
+.white{
+    color: var(--white);
+}
+.black{
+    color: var(--dark-grey);
+}
+.row-info{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.text-left{
+    text-align: left;
+    font-size: 1rem;
 }
