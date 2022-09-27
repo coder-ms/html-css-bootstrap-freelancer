@@ -1,0 +1,50 @@
+/* COMMON */
+:root{
+    --green: rgba(26, 188, 156, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey: rgba(55, 84, 109, 1);
+    --dark-grey: rgba(44, 62, 80, 1);
+}
+
+
+
+.debug{
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+.bg-lightgrey{
+    background-color: var(--grey);
+}
+.bg-darkgrey{
+    background-color: var(--dark-grey);
+}
+
+#hero{
+    padding-top: 100px;
+}
+/*
+###################################################
+HEADER
+###################################################
+*/
+body{
+    background-color: var(--white);
+    color: var(--dark-grey);
+}
+
+/*
+###################################################
+HEADER
+###################################################
+*/
+header{
+    background-color:  var(--dark-grey);
+    position: fixed;
+    height: 90px;
+    top: 0;
+    width: 100%;
+}
