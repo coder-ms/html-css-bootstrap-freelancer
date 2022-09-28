@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="boot-navbar">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link c-green active" aria-current="page" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link c-green" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link c-green" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -124,19 +124,19 @@
                 <div class="col-bar-black"> </div>
             </div>
             <form class="row padding-60">
-              <div class="col-md-12">
+              <div class="col-12">
                 <label for="inputname" class="form-label">Name</label>
                 <input type="name" class="form-control" id="inputEmail4">
               </div>
-              <div class="col-md-12">
+              <div class="col-12">
                 <label for="inputEmail4" class="form-label">Email Address</label>
                 <input type="email" class="form-control" id="inputEmail4">
               </div>
-              <div class="col-md-12">
-                <label for="inputEmail4" class="form-label">Phone Number</label>
-                <input type="number" class="form-control" id="inputNumber4">
+              <div class="col-12">
+                <label type="tel" name="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="es. +39 123 456789">
               </div>
-              <div class="col-md-12">
+              <div class="col-12">
                 <label for="validationTextarea" class="form-label">Message</label>
                 <textarea class="form-control" id="validationTextarea" placeholder="Write a message"></textarea>
               </div>
@@ -152,23 +152,43 @@
     <footer>
         <div class="footer-top bg-darkgrey">
           <div class="container-sm container-md container-lg text-center">
-            <div class="col-md-12">
-              <div class="col-md-4 white padding-60">
-                salve
+            <div class="row-footer  padding-20">
+              <div class="col-4 col-sm-4 white">
+                <div class="col-12 white">
+                  <h4>LOCATION</h4>
+                </div>
+                <div class="col-12 col-sm-12 white">
+                  <p class="text-center white">2215 John Daniel Drive Clark, MO 54243 </p>
+                </div>
               </div>
-              <div class="col-md-4 white padding-60">
-                salve
+              <div class="col-4 col-sm-4 white">
+                <div class="col-12 col-sm-12 white">
+                  <h4>AROUND THE WEB</h4>
+                </div>
+                <div class="col-12 col-sm-12 white">
+                  <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-google-plus-g"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                  </ul>
+                </div>                
               </div>
-              <div class="col-md-4 white padding-60">
-                salve
+              <div class="col-4 col-sm-4 white">
+                <div class="col-12 col-sm-12 white">
+                  <h4>GRAPHIC ARTIST</h4>
+                </div>
+                <div class="col-12 col-sm-12 white">
+                  <p class="text-center white">Freelance is free to use, open source Bootstrap theme created by <a class="c-green" href="#">Start Bootstrap</a>.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="footer-bottom bg-lightgrey">
-          <div class="container-sm container-md container-lg text-center">
-                bottom footer
-            </div>
+          <div class="container-sm container-md container-lg text-center padding-20">
+            <p class="text-center white">Copyright &copy; Your Website 2019</p>
+          </div>
         </div>
     </footer>
 </body>

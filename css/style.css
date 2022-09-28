@@ -16,6 +16,10 @@
 .bg-green{
     background-color: var(--green);
 }
+.c-green{
+    text-decoration: none;
+    color: var(--green);
+}
 .bg-lightgrey{
     background-color: var(--grey);
 }
@@ -33,6 +37,23 @@ h3{
     font-size: 1.25rem;
     color: var(--white);
     margin-bottom: 2rem;
+}
+h4{
+    font-size: 1rem;
+    color: var(--white);
+    margin: 10px 0;
+}
+.padding-20{
+    padding: 20px;
+}
+.padding-60{
+    padding: 0 60px;
+}
+.margin-20{
+    margin: 20px 0;
+}
+ul{
+    padding-left: 0px;
 }
 /*
 ###################################################
@@ -89,26 +110,23 @@ MAIN
 .star-black, .black{
     color: var(--dark-grey);
 }
-.row-info{
-    width: 50%;
+.row-info, .row-footer{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
+.row-info{
+    width: 50%;
+}
+.row-footer{
+    width: 100%;
+}
 .text-left{
     text-align: left;
     font-size: 1rem;
 }
-.padding-20{
-    padding: 20px;
-}
-.padding-60{
-    padding: 0 60px;
-}
-.margin-20{
-    margin: 20px 0;
-}
+
 .button-download, .button-send{
     height: 30px;
     border: 1px solid var(--white);
@@ -131,3 +149,17 @@ MAIN
     color: var(--green);
     border: 1px solid var(--green);
 }
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 6px;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    line-height: 1.75rem;
+}
+
+
+
