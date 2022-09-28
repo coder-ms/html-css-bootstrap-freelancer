@@ -63,6 +63,7 @@ MAIN
     max-width: 100%;
     width: 100%;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .col-bar-white, .col-bar-black{
@@ -79,13 +80,13 @@ MAIN
 .col-bar-white{
     background-color: var(--white);
 }
-.fa-star, .white, .black{
-    font-size: 275%;
+.fa-star, .star-white, .star-black{
+    font-size: 2rem;
 }
-.white{
+.star-white, .white{
     color: var(--white);
 }
-.black{
+.star-black, .black{
     color: var(--dark-grey);
 }
 .row-info{
@@ -98,4 +99,35 @@ MAIN
 .text-left{
     text-align: left;
     font-size: 1rem;
+}
+.padding-20{
+    padding: 20px;
+}
+.padding-60{
+    padding: 0 60px;
+}
+.margin-20{
+    margin: 20px 0;
+}
+.button-download, .button-send{
+    height: 30px;
+    border: 1px solid var(--white);
+    margin: 1.5rem 0;
+    cursor: pointer;
+}
+.button-download{
+    width: 120px;
+}
+.button-send{
+    width: 80px;
+    text-align: center;
+    color: var(--white);
+}
+.fa-download{
+    margin-right: 5px;
+}
+.button-download:hover, .button-send:hover{
+    background-color: var(--white);
+    color: var(--green);
+    border: 1px solid var(--green);
 }
